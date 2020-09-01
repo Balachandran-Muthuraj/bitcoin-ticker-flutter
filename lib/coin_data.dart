@@ -28,4 +28,10 @@ const List<String> cryptoList = [
   'LTC',
 ];
 
-class CoinData {}
+class CoinData {
+
+  List<String> GetcoinList()
+  {
+    return currenciesList;
+  }
+}
